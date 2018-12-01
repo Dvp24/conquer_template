@@ -1,0 +1,89 @@
+a{
+  color: #cccccc;
+}
+.nav-custom{
+  height: 72px;
+  padding: 15px 0px;
+  position: fixed;
+  z-index: 1000;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+}
+.nav-link-custom{
+  padding: 8px 25px;
+}
+.nav-link-custom:hover{
+  background-color:#49505F;
+  color: #cccccc;
+}
+.border-custom{
+  border-color:#646d7c!important
+}
+.sunflower-img{
+  background-image: url("sunflower.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 600px ;
+  width: 100%;
+  position: relative;
+  top: -30px;
+  transform: translateY(1px)scaleY(1.1);
+
+}
+.main-heading{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bolder;
+  font-size: 90px;
+}
+.name{
+  color: aliceblue;
+}
+.txt-shadow{
+  text-shadow: 2px 2px #222222;
+}
+.pos{
+  position: absolute;
+  top: 280px;
+  left: 420px;
+  z-index: 400;
+}
+.section-1{
+  /* height: 600px; */
+  background: none;
+}
+.section-2{
+  /* width: 100%; */
+  /* height: 600px; */
+  background-color: #ffffff ;
+  margin: 80px 0px;
+}
+.custom-flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* align-content: top; */
+  padding: 0px 60px
+}
+.colmn{
+  width: 320px;
+  background-color: #cccccc;
+  margin:20px 10px;
+  padding: 10px;
+}
+.parties-img{
+  width: 300px;
+}
+.contact-flex{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 10px;
+  padding: 0px 80px;
+}
+.section-last{
+  background-color: #cccccc;
+  margin: 20px 150px;
+  
+}
